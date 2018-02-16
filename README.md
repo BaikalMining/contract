@@ -12,7 +12,7 @@
     - `string public constant name = "Baikal Mining"` Полное название токена
     - `string public constant symbol = "BAM"` Сокращенное название токена
     - `uint public constant decimals = 18` Кол-во знаков после запятой
-    - `uint public constant totalSupply = 34550000 * 1000000000000000000;` начальная стоимость 1 токена в wei
+    - `uint public constant totalSupply = 34550000 * 1000000000000000000;` общее кол-во токенов в wei
     - `uint internal tokenPrice = 700000000000000` текущая стоимость 1 токена в wei
     - `bool public buyAllowed = true` определяет возможность покупки токенов, прямой отправкой эфира на контракт
     - `bool public transferBlocked = true` определяет возможность перевода токенов со счета на счет
