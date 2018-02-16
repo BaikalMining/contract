@@ -41,9 +41,10 @@
     - `function safeSub(uint a, uint b) internal pure returns (uint)` Функция для безопасного выполенения операции вычитания
     - `function safeAdd(uint a, uint b) internal pure returns (uint)` Функция для безопасного выполенения операции сложения
 
-  - Методы стандарта ERC 20 (полное описание доступно по ссылке https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md):
+  - Методы стандарта ERC 20:
     - `function transfer(address _to, uint256 _value) public onlyOwnerIfBlocked returns (bool success)` отправка токена на указанный адрес
     - `function transferFrom(address _from, address _to, uint256 _value) public onlyOwnerIfBlocked returns (bool success)` отправка токена с указанного адреса на другой адрес
     - `function approve(address _spender, uint256 _value) public onlyOwnerIfBlocked returns (bool success)` разрешение отправки токенов указанному адресу
     - `function allowance(address _owner, address _spender) public onlyOwnerIfBlocked constant returns (uint256 remaining)` метод для проверки кол-ва токенов, разрешенных к отправке указанному адресу, на определенном аккаунте
- 
+    
+    > полное описание стандарта ERC 20 доступно по ссылке https://github.com/ethereum/EIPs/blob/master/EIPS/eip-20.md)
